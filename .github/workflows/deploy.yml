@@ -41,4 +41,4 @@ jobs:
             cd /opt/ansor-market
             docker compose pull portfolio
             docker compose up -d portfolio
-            docker compose exec -T ansor-nginx nginx -s reload
+            docker exec ansor-nginx nginx -s reload
