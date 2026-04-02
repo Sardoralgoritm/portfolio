@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   description: "Sardorbek Saminov — Software Engineer from Tashkent, Uzbekistan. Building backend systems with C# and .NET.",
   keywords: ["Sardorbek Saminov", "Sardorbek", "Saminov", "Software Engineer", "Backend Developer", "Uzbekistan", "C#", ".NET"],
   authors: [{ name: "Sardorbek Saminov" }],
+  verification: { google: "HC0EWIG71jQ2I7nnFjzHFhF7dNszbJkxWb3U1eWstVw" },
   openGraph: {
     title: "Sardorbek Saminov — Software Engineer",
     description: "Software Engineer from Tashkent, Uzbekistan.",
