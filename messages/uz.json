@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "about": "Haqida",
+    "skills": "Ko'nikmalar",
+    "experience": "Tajriba",
+    "projects": "Loyihalar",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "greeting": "Salom, men",
+    "name": "Sardorbek Saminov",
+    "role": "Dasturiy ta'minot muhandisi",
+    "tagline": "Kod yozaman, muammolar yechaman va ba'zida ataylab narsalarni buzaman.",
+    "cta_contact": "Bog'lanish",
+    "cta_experience": "Tajribani ko'rish"
+  },
+  "about": {
+    "title": "Haqida",
+    "p1": "Men Sardorbek — O'zbekistonlik dasturchi. So'nggi ikki yilni talablarni ishlaydigan tizimlarga aylantirish, buzilmasligi kerak bo'lgan narsalarni tuzatish va ba'zida boshqalarga dasturlashni o'rgatish bilan o'tkazdim.",
+    "p2": "Miyani ishlattiradigan muammolarni yaxshi ko'raman. Hozirda Ijtimoiy himoya milliy agentligida ishlayman.",
+    "p3": "Ish tashqarisida: LeetCode (1500+, top 40%), boshlang'ichlarga ustozlik va doim yangi narsa o'rganish."
+  },
+  "skills": {
+    "title": "Ko'nikmalar va Texnologiyalar"
+  },
+  "experience": {
+    "title": "Tajriba",
+    "present": "Hozir",
+    "items": [
+      {
+        "company": "Ijtimoiy himoya milliy agentligi",
+        "role": ".NET Backend Dasturchisi",
+        "period": "Okt 2025 — Hozir",
+        "location": "Toshkent, O'zbekiston",
+        "description": "O'zbekiston Respublikasi Prezidenti huzuridagi Ijtimoiy himoya milliy agentligida davlat darajasidagi infratuzilma uchun backend ishlanmalar."
+      },
+      {
+        "company": "Smart Partners",
+        "role": ".NET Dasturchisi",
+        "period": "Mar 2025 — Iyul 2025",
+        "location": "Toshkent, O'zbekiston",
+        "description": "WPF frontend va Web API backend bilan restoran boshqaruv tizimini qurdim. SignalR orqali real vaqt sinxronizatsiyasi, xUnit bilan integratsiya testlari va CI/CD pipeline joriy etdim."
+      },
+      {
+        "company": "Najot Ta'lim",
+        "role": "Yordamchi O'qituvchi",
+        "period": "May 2024 — Mar 2025",
+        "location": "Farg'ona, O'zbekiston",
+        "description": "100+ talabaga Python va C dasturlash tillarini o'rgattim. Boshlang'ich darajadagi talabalarni sinf va onlayn platformalar orqali ustozlik qildim."
+      },
+      {
+        "company": "MDevs Group",
+        "role": "Dasturiy ta'minot bo'yicha Stajyor",
+        "period": "Sen 2023 — Fev 2024",
+        "location": "Farg'ona, O'zbekiston",
+        "description": "WinForms ilovalarini ishlab chiqdim va jamoa muhitida C# .NET hamda MongoDB bilan amaliy tajriba orttirdim."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Loyihalar",
+    "view_github": "GitHub",
+    "items": [
+      {
+        "name": "GeneralCore",
+        "description": ".NET 10 uchun qayta ishlatiladigan core kutubxona — reflection orqali avtomatik sahifalash, AutoMapper bilan typed tarjimalar, enum asosidagi rol-based avtorizatsiya va inject qilinadigan joriy foydalanuvchi abstraktsiyasi.",
+        "stack": ["C#", ".NET 10", "AutoMapper", "MIT"],
+        "url": "https://github.com/Sardoralgoritm/GeneralCore"
+      },
+      {
+        "name": "AnonimBot",
+        "description": "Regex va Telegram.Bot kutubxonasi yordamida anonim maslahat Telegram bot. @ineedyouradvicebot sifatida joylashtirilgan.",
+        "stack": ["C#", "Telegram.Bot", "Regex"],
+        "url": "https://github.com/Sardoralgoritm/AnonimBot"
+      },
+      {
+        "name": "ShortUrl",
+        "description": "JWT autentifikatsiyasi bilan URL qisqartirish xizmati. brogrammers.fn1.uz da ishlaydi.",
+        "stack": ["C#", "ASP.NET Core", "JWT"],
+        "url": "https://github.com/Sardoralgoritm/ShortUrl"
+      },
+      {
+        "name": "LeetCode Yechimlari",
+        "description": "C# da yozilgan algoritmik yechimlar — Massivlar, Daraxtlar, DP, Ikkilik qidiruv, Bog'liq ro'yxatlar. Reyting 1500+ (top 40%).",
+        "stack": ["C#", "DSA", "36+ commit"],
+        "url": "https://github.com/Sardoralgoritm/LeetCode-Solutions"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Bog'lanish",
+    "subtitle": "Loyiha, savol yoki shunchaki salom demoqchimisiz? Emailim doim ochiq.",
+    "form_label": "Xabar yuborish",
+    "form_name": "Ism",
+    "form_email": "Email",
+    "form_message": "Xabar",
+    "form_name_placeholder": "Ismingiz",
+    "form_email_placeholder": "email@mail.com",
+    "form_placeholder": "Xabaringiz...",
+    "form_send": "Yuborish",
+    "form_sent": "Yuborildi!",
+    "info_title": "Aloqa ma'lumotlari",
+    "social_title": "Ijtimoiy tarmoqlar"
+  },
+  "footer": {
+    "built": "Next.js bilan qurilgan"
+  },
+  "theme": {
+    "light": "Yorug'",
+    "dark": "Qorong'u",
+    "system": "Tizim"
+  }
+}

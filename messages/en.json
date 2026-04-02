@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Sardorbek Saminov",
+    "role": "Software Engineer",
+    "tagline": "I write code, solve problems, and occasionally break things on purpose.",
+    "cta_contact": "Get in Touch",
+    "cta_experience": "View Experience"
+  },
+  "about": {
+    "title": "About",
+    "p1": "I'm Sardorbek — a software engineer from Uzbekistan. I've spent the last two years turning requirements into working systems, debugging things that shouldn't break, and occasionally teaching others how to code.",
+    "p2": "I like problems that make you think. Currently building at the National Agency for Social Protection.",
+    "p3": "Outside work: LeetCode (1500+, top 40%), mentoring beginners, and always learning something new."
+  },
+  "skills": {
+    "title": "Skills & Technologies"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "items": [
+      {
+        "company": "National Agency for Social Protection",
+        "role": ".NET Backend Developer",
+        "period": "Oct 2025 — Present",
+        "location": "Tashkent, Uzbekistan",
+        "description": "Backend development for government-level infrastructure under the President of the Republic of Uzbekistan."
+      },
+      {
+        "company": "Smart Partners",
+        "role": ".NET Developer",
+        "period": "Mar 2025 — Jul 2025",
+        "location": "Tashkent, Uzbekistan",
+        "description": "Built a restaurant management system with WPF frontend and Web API backend. Implemented real-time sync via SignalR, wrote integration tests with xUnit, and set up CI/CD pipeline."
+      },
+      {
+        "company": "Najot Ta'lim",
+        "role": "Assistant Teacher",
+        "period": "May 2024 — Mar 2025",
+        "location": "Fergana, Uzbekistan",
+        "description": "Taught Python and C to 100+ students across multiple cohorts. Mentored beginners through structured classroom sessions and online platforms."
+      },
+      {
+        "company": "MDevs Group",
+        "role": "Software Development Intern",
+        "period": "Sep 2023 — Feb 2024",
+        "location": "Fergana, Uzbekistan",
+        "description": "Developed WinForms applications and gained hands-on experience with C# .NET and MongoDB in a team environment."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "view_github": "GitHub",
+    "items": [
+      {
+        "name": "GeneralCore",
+        "description": "Reusable .NET 10 core library — automatic pagination via reflection, typed translations with AutoMapper, enum-driven role-based authorization, and injectable current-user abstraction.",
+        "stack": ["C#", ".NET 10", "AutoMapper", "MIT"],
+        "url": "https://github.com/Sardoralgoritm/GeneralCore"
+      },
+      {
+        "name": "AnonimBot",
+        "description": "Anonymous advice Telegram bot using Regex and Telegram.Bot library. Deployed as @ineedyouradvicebot.",
+        "stack": ["C#", "Telegram.Bot", "Regex"],
+        "url": "https://github.com/Sardoralgoritm/AnonimBot"
+      },
+      {
+        "name": "ShortUrl",
+        "description": "URL shortening service with JWT authentication. Live at brogrammers.fn1.uz.",
+        "stack": ["C#", "ASP.NET Core", "JWT"],
+        "url": "https://github.com/Sardoralgoritm/ShortUrl"
+      },
+      {
+        "name": "LeetCode Solutions",
+        "description": "Algorithm solutions in C# organized by category — Arrays, Trees, DP, Binary Search, Linked Lists. Rating 1500+ (top 40%).",
+        "stack": ["C#", "DSA", "36+ commits"],
+        "url": "https://github.com/Sardoralgoritm/LeetCode-Solutions"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a project in mind, a question, or just want to say hi? My inbox is open.",
+    "form_label": "Send a message",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_name_placeholder": "Your name",
+    "form_email_placeholder": "your@email.com",
+    "form_placeholder": "Your message...",
+    "form_send": "Send Message",
+    "form_sent": "Sent!",
+    "info_title": "Contact Information",
+    "social_title": "Social Links"
+  },
+  "footer": {
+    "built": "Built with Next.js"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}
